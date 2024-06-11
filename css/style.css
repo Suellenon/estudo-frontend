@@ -1,4 +1,7 @@
-body{background-color: aquamarine;color: black;}
+body{background-color: aquamarine;color: black;
+margin: 1rem;}
+:root{--cor-primaria:orange;
+--cor-secundaria:purple;}
 
 .sublinhado{
   text-decoration: underline;
@@ -15,3 +18,8 @@ p::first-letter{font-size: larger;}
 .poema{
   color: purple;
 }
+table,th, td{
+  border: 1px solid white;border-radius: 10px;border-collapse:collapse;
+  padding: 0.5rem;
+}
+#foto-perfil{border-radius: 50%;}
